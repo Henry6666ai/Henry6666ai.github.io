@@ -57,18 +57,62 @@ GDP is often considered the best single measure of the economic well-being of a 
 
 ---
 
-## 📝 Quiz: Measuring Income
+<div id="quiz-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; border: 1px solid #ddd; color: #333;">
+  <h3>🧠 Economics Knowledge Check</h3>
+  <hr>
 
-**1. If a baker buys flour to make bread, is the flour included in GDP?**
-- [ ] Yes, it is a produced good.
-- [ ] No, it is an intermediate good (to avoid double-counting).
-- [ ] Only if the baker is a government employee.
+  <div class="question" style="margin-bottom: 20px;">
+    <p><strong>1. Which component of GDP includes the purchase of a brand-new home?</strong></p>
+    <input type="radio" name="q1" value="wrong"> Consumption (C)<br>
+    <input type="radio" name="q1" value="correct"> Investment (I)<br>
+    <input type="radio" name="q1" value="wrong"> Government Purchases (G)
+  </div>
 
-**2. Which component of GDP includes the purchase of a brand-new home?**
-- [ ] Consumption (C)
-- [ ] Investment (I)
-- [ ] Government Purchases (G)
+  <div class="question" style="margin-bottom: 20px;">
+    <p><strong>2. Which measure of GDP is adjusted for inflation (valued at constant prices)?</strong></p>
+    <input type="radio" name="q2" value="wrong"> Nominal GDP<br>
+    <input type="radio" name="q2" value="correct"> Real GDP<br>
+    <input type="radio" name="q2" value="wrong"> GDP Deflator
+  </div>
 
-**3. Which measure is adjusted for inflation?**
-- [ ] Nominal GDP
-- [ ] Real GDP
+  <div class="question" style="margin-bottom: 20px;">
+    <p><strong>3. Why is the purchase of flour by a baker excluded from GDP?</strong></p>
+    <input type="radio" name="q3" value="wrong"> It is a service, not a good.<br>
+    <input type="radio" name="q3" value="correct"> It is an intermediate good (to avoid double-counting).<br>
+    <input type="radio" name="q3" value="wrong"> It is produced outside the country.
+  </div>
+
+  <button onclick="checkAnswers()" style="background-color: #2ea44f; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold;">Submit Answers</button>
+
+  <p id="result" style="margin-top: 20px; font-weight: bold; font-size: 1.2em; color: #d73a49;"></p>
+</div>
+
+<script>
+function checkAnswers() {
+  let score = 0;
+  let totalQuestions = 3;
+  
+  // Check Q1
+  let q1 = document.querySelector('input[name="q1"]:checked');
+  if (q1 && q1.value === "correct") score++;
+
+  // Check Q2
+  let q2 = document.querySelector('input[name="q2"]:checked');
+  if (q2 && q2.value === "correct") score++;
+
+  // Check Q3
+  let q3 = document.querySelector('input[name="q3"]:checked');
+  if (q3 && q3.value === "correct") score++;
+
+  // Display Result
+  const resultDisplay = document.getElementById('result');
+  resultDisplay.innerHTML = "You scored " + score + " out of " + totalQuestions + "!";
+  
+  if (score === totalQuestions) {
+    resultDisplay.style.color = "#2ea44f";
+    resultDisplay.innerHTML += " 🎉 Perfect score!";
+  } else {
+    resultDisplay.style.color = "#d73a49";
+  }
+}
+</script>
