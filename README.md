@@ -1,4 +1,8 @@
-# 📈 The Economic Pulse: Measuring a Nation's Income
+---
+layout: default
+title: Economics 101
+---
+# 📈 Chapter 23: Measuring a Nation's Income
 
 To understand how an economy is performing, we look at the **Gross Domestic Product (GDP)**. Whether you are looking at a single household or a whole nation, income must equal expenditure because every dollar spent by a buyer is a dollar of income for a seller.
 
