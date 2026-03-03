@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Economics 101
+title: Economics 101 
 ---
 # 📈 Chapter 23: Measuring a Nation's Income
 
