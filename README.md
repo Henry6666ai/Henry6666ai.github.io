@@ -1,61 +1,74 @@
-# 📈 Economics 101: The 10 Principles
+# 📈 The Economic Pulse: Measuring a Nation's Income
 
-Welcome to the foundation of economic thought. This page explores how individuals, markets, and entire nations manage scarce resources.
+To understand how an economy is performing, we look at the **Gross Domestic Product (GDP)**. Whether you are looking at a single household or a whole nation, income must equal expenditure because every dollar spent by a buyer is a dollar of income for a seller.
 
----
 
-## 🧩 Part 1: How People Make Decisions
-At its core, economics is the study of how society manages its **scarce resources**. Because resources are limited, people must make choices.
-
-1. **People Face Trade-offs** To get something we like, we usually have to give up something else. A classic example is *"guns and butter"*: the more a society spends on national defense (guns), the less it can spend on consumer goods (butter).
-2. **The Cost of Something Is What You Give Up to Get It** This is known as **opportunity cost**. Making decisions requires comparing the costs and benefits of alternatives.
-3. **Rational People Think at the Margin** Rational people make decisions by comparing *marginal benefits* and *marginal costs*.
-4. **People Respond to Incentives** An incentive is something that induces a person to act. Public policies, like seat belt laws, can change the incentives people face, sometimes leading to unintended consequences.
 
 ---
 
-## 🤝 Part 2: How People Interact
-Economies are built on the interactions between households and firms.
+## 🔍 What is GDP?
+**Gross Domestic Product (GDP)** is the market value of all final goods and services produced within a country in a given period of time.
 
-* **Principle 5: Trade Can Make Everyone Better Off** Trade allows people and nations to specialize in what they do best.
-* **Principle 6: Markets Are Usually a Good Way to Organize Economic Activity** In a market economy, decentralized decisions lead to desirable outcomes, as if guided by an **"invisible hand"**.
-* **Principle 7: Governments Can Sometimes Improve Market Outcomes** Markets only work if the government enforces property rights. Government intervention can also fix *market failures* (like pollution or monopolies).
-
----
-
-## 🌏 Part 3: How the Economy as a Whole Works
-
-| Principle | Key Concept | Description |
-| :--- | :--- | :--- |
-| **Principle 8** | **Productivity** | A country's standard of living depends on its ability to produce goods and services. |
-| **Principle 9** | **Inflation** | Prices rise when the government prints too much money. |
-| **Principle 10** | **Business Cycle** | Society faces a short-run trade-off between inflation and unemployment. |
+* **Market Value:** GDP uses market prices to measure the value of various goods.
+* **Final Goods:** It includes only the value of final goods, not intermediate ones, to avoid double-counting.
+* **Produced Within a Country:** It measures the value of production within a country's geographic borders.
+* **In a Given Period:** Usually measured in a year or a quarter.
 
 ---
 
-## 💡 Case Study: Adam Smith and Uber
-Modern technology like Uber illustrates many of these principles. While traditional taxis are often heavily regulated, Uber uses **surge pricing** to balance the market. 
+## 🧮 The Components of GDP
+Economists divide GDP ($Y$) into four distinct categories of spending:
 
-> This increases the quantity of services supplied when they are most needed and allocates them to consumers who value them most highly.
+$$Y = C + I + G + NX$$
+
+| Component | Description |
+| :--- | :--- |
+| **Consumption (C)** | Spending by households on goods and services, excluding new housing. |
+| **Investment (I)** | Spending on capital equipment, inventories, structures, and new housing. |
+| **Government Purchases (G)** | Spending on goods and services by local, state, and federal governments. |
+| **Net Exports (NX)** | Spending on domestically produced goods by foreigners (exports) minus domestic spending on foreign goods (imports). |
+
+
+
+---
+
+## ⚖️ Real vs. Nominal GDP
+If total spending rises from one year to the next, it’s either because the economy is producing more goods, or goods are being sold at higher prices.
+
+* **Nominal GDP:** The production of goods and services valued at **current prices**.
+* **Real GDP:** The production of goods and services valued at **constant prices** (from a base year).
+
+> **The Goal:** Real GDP shows how the economy’s overall production changes over time, unaffected by price changes.
+
+### The GDP Deflator
+To measure the current level of prices relative to the level of prices in the base year, we use the GDP Deflator:
+
+$$\text{GDP Deflator} = \left( \frac{\text{Nominal GDP}}{\text{Real GDP}} \right) \times 100$$
 
 ---
 
-## 📝 Final Quiz
-*Check your understanding of the principles above.*
+## 🌟 Is GDP a Good Measure of Well-being?
+GDP is often considered the best single measure of the economic well-being of a society. While it doesn't directly measure health or education, nations with larger GDPs can afford better healthcare systems.
 
-**1. What is the term for what you give up to get an item?**
-- [ ] Marginal Cost
-- [ ] Opportunity Cost
-- [ ] Trade-off
-
-**2. Which principle explains why prices rise when a government prints too much money?**
-- [ ] Principle 4 (Incentives)
-- [ ] Principle 9 (Inflation)
-- [ ] Principle 6 (Markets)
-
-**3. True or False: Trade is a "zero-sum game" where one person must lose for another to win.**
-- [ ] True
-- [ ] False
+**What GDP excludes:**
+1. Leisure time.
+2. The quality of the environment.
+3. Activity that takes place outside of markets (e.g., volunteer work).
 
 ---
-*Course created for GitHub Pages*
+
+## 📝 Quiz: Measuring Income
+
+**1. If a baker buys flour to make bread, is the flour included in GDP?**
+- [ ] Yes, it is a produced good.
+- [ ] No, it is an intermediate good (to avoid double-counting).
+- [ ] Only if the baker is a government employee.
+
+**2. Which component of GDP includes the purchase of a brand-new home?**
+- [ ] Consumption (C)
+- [ ] Investment (I)
+- [ ] Government Purchases (G)
+
+**3. Which measure is adjusted for inflation?**
+- [ ] Nominal GDP
+- [ ] Real GDP
