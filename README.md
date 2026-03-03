@@ -61,62 +61,75 @@ GDP is often considered the best single measure of the economic well-being of a 
 
 ---
 
-<div id="quiz-container" style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; border: 1px solid #ddd; color: #333;">
-  <h3>🧠 Economics Knowledge Check</h3>
-  <hr>
+<div id="quiz-container" style="background-color: #fdfdfd; padding: 25px; border-radius: 12px; border: 1px solid #e1e4e8; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <h3 style="margin-top: 0;">🧠 Economics Knowledge Check</h3>
+  <p style="font-size: 0.9em; color: #586069;">Select your answers and click submit to see your results.</p>
+  <hr style="border: 0; border-top: 1px solid #eaecef; margin: 20px 0;">
 
-  <div class="question" style="margin-bottom: 20px;">
+  <div id="q1-area" style="margin-bottom: 25px; padding: 10px; border-radius: 6px;">
     <p><strong>1. Which component of GDP includes the purchase of a brand-new home?</strong></p>
-    <input type="radio" name="q1" value="wrong"> Consumption (C)<br>
-    <input type="radio" name="q1" value="correct"> Investment (I)<br>
-    <input type="radio" name="q1" value="wrong"> Government Purchases (G)
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q1" value="wrong"> Consumption (C)</label>
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q1" value="correct"> Investment (I)</label>
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q1" value="wrong"> Government Purchases (G)</label>
+    <span id="feedback-q1" style="font-weight: bold; display: block; margin-top: 5px;"></span>
   </div>
 
-  <div class="question" style="margin-bottom: 20px;">
+  <div id="q2-area" style="margin-bottom: 25px; padding: 10px; border-radius: 6px;">
     <p><strong>2. Which measure of GDP is adjusted for inflation (valued at constant prices)?</strong></p>
-    <input type="radio" name="q2" value="wrong"> Nominal GDP<br>
-    <input type="radio" name="q2" value="correct"> Real GDP<br>
-    <input type="radio" name="q2" value="wrong"> GDP Deflator
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q2" value="wrong"> Nominal GDP</label>
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q2" value="correct"> Real GDP</label>
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q2" value="wrong"> GDP Deflator</label>
+    <span id="feedback-q2" style="font-weight: bold; display: block; margin-top: 5px;"></span>
   </div>
 
-  <div class="question" style="margin-bottom: 20px;">
+  <div id="q3-area" style="margin-bottom: 25px; padding: 10px; border-radius: 6px;">
     <p><strong>3. Why is the purchase of flour by a baker excluded from GDP?</strong></p>
-    <input type="radio" name="q3" value="wrong"> It is a service, not a good.<br>
-    <input type="radio" name="q3" value="correct"> It is an intermediate good (to avoid double-counting).<br>
-    <input type="radio" name="q3" value="wrong"> It is produced outside the country.
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q3" value="wrong"> It is a service, not a good.</label>
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q3" value="correct"> It is an intermediate good (to avoid double-counting).</label>
+    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q3" value="wrong"> It is produced outside the country.</label>
+    <span id="feedback-q3" style="font-weight: bold; display: block; margin-top: 5px;"></span>
   </div>
 
-  <button onclick="checkAnswers()" style="background-color: #2ea44f; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold;">Submit Answers</button>
-
-  <p id="result" style="margin-top: 20px; font-weight: bold; font-size: 1.2em; color: #d73a49;"></p>
+  <div style="text-align: center; margin-top: 30px;">
+    <button onclick="checkAnswers()" style="background-color: #2ea44f; color: white; border: none; padding: 12px 30px; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 1rem;">Submit Exam</button>
+    <p id="total-score" style="margin-top: 20px; font-weight: bold; font-size: 1.3em;"></p>
+  </div>
 </div>
 
 <script>
 function checkAnswers() {
   let score = 0;
-  let totalQuestions = 3;
-  
-  // Check Q1
-  let q1 = document.querySelector('input[name="q1"]:checked');
-  if (q1 && q1.value === "correct") score++;
+  const questions = [
+    {id: 'q1', correct: 'Investment (I)'},
+    {id: 'q2', correct: 'Real GDP'},
+    {id: 'q3', correct: 'An intermediate good'}
+  ];
 
-  // Check Q2
-  let q2 = document.querySelector('input[name="q2"]:checked');
-  if (q2 && q2.value === "correct") score++;
+  questions.forEach((q, index) => {
+    const num = index + 1;
+    const selected = document.querySelector(`input[name="q${num}"]:checked`);
+    const feedback = document.getElementById(`feedback-q${num}`);
+    const area = document.getElementById(`q${num}-area`);
 
-  // Check Q3
-  let q3 = document.querySelector('input[name="q3"]:checked');
-  if (q3 && q3.value === "correct") score++;
+    if (selected) {
+      if (selected.value === "correct") {
+        score++;
+        feedback.innerHTML = "✓ Correct!";
+        feedback.style.color = "#28a745";
+        area.style.backgroundColor = "#f0fff4"; // Light green background
+      } else {
+        feedback.innerHTML = "✗ Incorrect. The correct answer is: " + q.correct;
+        feedback.style.color = "#d73a49";
+        area.style.backgroundColor = "#ffeef0"; // Light red background
+      }
+    } else {
+      feedback.innerHTML = "⚠ Please select an answer.";
+      feedback.style.color = "#f66a0a";
+    }
+  });
 
-  // Display Result
-  const resultDisplay = document.getElementById('result');
-  resultDisplay.innerHTML = "You scored " + score + " out of " + totalQuestions + "!";
-  
-  if (score === totalQuestions) {
-    resultDisplay.style.color = "#2ea44f";
-    resultDisplay.innerHTML += " 🎉 Perfect score!";
-  } else {
-    resultDisplay.style.color = "#d73a49";
-  }
+  const finalResult = document.getElementById('total-score');
+  finalResult.innerHTML = "Final Score: " + score + "/3";
+  finalResult.style.color = score === 3 ? "#28a745" : "#24292e";
 }
 </script>
