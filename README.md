@@ -61,75 +61,84 @@ GDP is often considered the best single measure of the economic well-being of a 
 
 ---
 
-<div id="quiz-container" style="background-color: #fdfdfd; padding: 25px; border-radius: 12px; border: 1px solid #e1e4e8; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  <h3 style="margin-top: 0;">🧠 Economics Knowledge Check</h3>
-  <p style="font-size: 0.9em; color: #586069;">Select your answers and click submit to see your results.</p>
-  <hr style="border: 0; border-top: 1px solid #eaecef; margin: 20px 0;">
+<div id="quiz-container" style="background-color: #f8f9fa; padding: 25px; border-radius: 10px; border: 1px solid #d1d5da; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; margin-top: 30px;">
+  <h2 style="margin-top: 0; color: #0366d6;">📝 Chapter 23 Review Quiz</h2>
+  <p style="color: #586069;">Test your understanding of National Income and GDP components.</p>
+  <hr style="border: 0; border-top: 1px solid #e1e4e8; margin: 20px 0;">
 
-  <div id="q1-area" style="margin-bottom: 25px; padding: 10px; border-radius: 6px;">
-    <p><strong>1. Which component of GDP includes the purchase of a brand-new home?</strong></p>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q1" value="wrong"> Consumption (C)</label>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q1" value="correct"> Investment (I)</label>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q1" value="wrong"> Government Purchases (G)</label>
-    <span id="feedback-q1" style="font-weight: bold; display: block; margin-top: 5px;"></span>
+  <div id="q1-box" style="margin-bottom: 20px; padding: 15px; border-radius: 8px; transition: 0.3s;">
+    <p><strong>1. If a consumer buys a brand-new house, which component of GDP does this fall under?</strong></p>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q1" value="wrong"> Consumption (C)</label>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q1" value="correct"> Investment (I)</label>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q1" value="wrong"> Government Purchases (G)</label>
+    <div id="feedback-q1" style="margin-top: 10px; font-weight: 600;"></div>
   </div>
 
-  <div id="q2-area" style="margin-bottom: 25px; padding: 10px; border-radius: 6px;">
-    <p><strong>2. Which measure of GDP is adjusted for inflation (valued at constant prices)?</strong></p>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q2" value="wrong"> Nominal GDP</label>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q2" value="correct"> Real GDP</label>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q2" value="wrong"> GDP Deflator</label>
-    <span id="feedback-q2" style="font-weight: bold; display: block; margin-top: 5px;"></span>
+  <div id="q2-box" style="margin-bottom: 20px; padding: 15px; border-radius: 8px; transition: 0.3s;">
+    <p><strong>2. Which GDP measure should you use to see if an economy is actually producing more goods (ignoring price changes)?</strong></p>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q2" value="wrong"> Nominal GDP</label>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q2" value="correct"> Real GDP</label>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q2" value="wrong"> GDP Deflator</label>
+    <div id="feedback-q2" style="margin-top: 10px; font-weight: 600;"></div>
   </div>
 
-  <div id="q3-area" style="margin-bottom: 25px; padding: 10px; border-radius: 6px;">
-    <p><strong>3. Why is the purchase of flour by a baker excluded from GDP?</strong></p>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q3" value="wrong"> It is a service, not a good.</label>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q3" value="correct"> It is an intermediate good (to avoid double-counting).</label>
-    <label style="display: block; margin-bottom: 5px;"><input type="radio" name="q3" value="wrong"> It is produced outside the country.</label>
-    <span id="feedback-q3" style="font-weight: bold; display: block; margin-top: 5px;"></span>
+  <div id="q3-box" style="margin-bottom: 20px; padding: 15px; border-radius: 8px; transition: 0.3s;">
+    <p><strong>3. If Nominal GDP is $600 and Real GDP is $500, what is the GDP Deflator?</strong></p>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q3" value="wrong"> 83.3</label>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q3" value="correct"> 120</label>
+    <label style="display: block; cursor: pointer;"><input type="radio" name="q3" value="wrong"> 110</label>
+    <div id="feedback-q3" style="margin-top: 10px; font-weight: 600;"></div>
   </div>
 
-  <div style="text-align: center; margin-top: 30px;">
-    <button onclick="checkAnswers()" style="background-color: #2ea44f; color: white; border: none; padding: 12px 30px; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 1rem;">Submit Exam</button>
-    <p id="total-score" style="margin-top: 20px; font-weight: bold; font-size: 1.3em;"></p>
+  <div style="text-align: center; margin-top: 20px;">
+    <button onclick="evaluateQuiz()" style="background-color: #2ea44f; color: white; border: none; padding: 12px 25px; border-radius: 6px; cursor: pointer; font-size: 16px; font-weight: bold;">Submit Answers</button>
+    <h3 id="score-display" style="margin-top: 20px;"></h3>
   </div>
 </div>
 
 <script>
-function checkAnswers() {
+function evaluateQuiz() {
   let score = 0;
-  const questions = [
-    {id: 'q1', correct: 'Investment (I)'},
-    {id: 'q2', correct: 'Real GDP'},
-    {id: 'q3', correct: 'An intermediate good'}
-  ];
+  const total = 3;
+  const answers = {
+    q1: { correct: "correct", text: "Correct! New housing is categorized under Investment (I)." },
+    q2: { correct: "correct", text: "Correct! Real GDP uses constant prices to measure volume." },
+    q3: { correct: "correct", text: "Correct! (600 / 500) x 100 = 120." }
+  };
+  
+  const explanations = {
+    q1: "Incorrect. While most household spending is Consumption, new housing is specifically classed as Investment (I).",
+    q2: "Incorrect. Nominal GDP includes price changes; Real GDP is the measure adjusted for inflation.",
+    q3: "Incorrect. The formula is (Nominal / Real) x 100. So, (600/500) * 100 = 120."
+  };
 
-  questions.forEach((q, index) => {
-    const num = index + 1;
-    const selected = document.querySelector(`input[name="q${num}"]:checked`);
-    const feedback = document.getElementById(`feedback-q${num}`);
-    const area = document.getElementById(`q${num}-area`);
+  for (let i = 1; i <= total; i++) {
+    const qName = 'q' + i;
+    const selected = document.querySelector(`input[name="${qName}"]:checked`);
+    const feedback = document.getElementById(`feedback-${qName}`);
+    const box = document.getElementById(`${qName}-box`);
 
     if (selected) {
       if (selected.value === "correct") {
         score++;
-        feedback.innerHTML = "✓ Correct!";
+        feedback.innerHTML = "✅ " + answers[qName].text;
         feedback.style.color = "#28a745";
-        area.style.backgroundColor = "#f0fff4"; // Light green background
+        box.style.backgroundColor = "#e6ffed";
+        box.style.borderLeft = "5px solid #28a745";
       } else {
-        feedback.innerHTML = "✗ Incorrect. The correct answer is: " + q.correct;
+        feedback.innerHTML = "❌ " + explanations[qName];
         feedback.style.color = "#d73a49";
-        area.style.backgroundColor = "#ffeef0"; // Light red background
+        box.style.backgroundColor = "#ffeef0";
+        box.style.borderLeft = "5px solid #d73a49";
       }
     } else {
-      feedback.innerHTML = "⚠ Please select an answer.";
+      feedback.innerHTML = "⚠️ Please select an answer.";
       feedback.style.color = "#f66a0a";
     }
-  });
+  }
 
-  const finalResult = document.getElementById('total-score');
-  finalResult.innerHTML = "Final Score: " + score + "/3";
-  finalResult.style.color = score === 3 ? "#28a745" : "#24292e";
+  const scoreDisplay = document.getElementById('score-display');
+  scoreDisplay.innerHTML = "Total Score: " + score + " / " + total;
+  scoreDisplay.style.color = score === total ? "#28a745" : "#24292e";
 }
 </script>
