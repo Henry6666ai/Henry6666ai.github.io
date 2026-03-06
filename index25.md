@@ -12,13 +12,13 @@ Economic growth varies significantly across the globe. We measure these differen
 
 ---
 
-## 1. Introduction to Economic Growth
+## Introduction to Economic Growth
 * **Variation:** Living standards vary widely from country to country.
 * **Growth Rate:** Measures how rapidly real GDP per person grows in a typical year.
 
 ---
 
-## 2. The Power of Productivity
+## The Power of Productivity
 Productivity is the quantity of goods and services produced from each unit of labor input. 
 
 > **Core Principle:** An economy’s income is the economy’s output. If productivity grows, living standards grow.
@@ -33,7 +33,7 @@ Productivity is the quantity of goods and services produced from each unit of la
 
 ---
 
-## 3. Public Policy and Investment
+## Public Policy and Investment
 
 ### Saving and Investment
 To raise future productivity, a society must invest more current resources in the production of capital. This requires a trade-off: to have more capital in the future, we must consume less today.
@@ -42,9 +42,14 @@ To raise future productivity, a society must invest more current resources in th
 * **Diminishing Returns:** As the stock of capital rises, the extra output produced from an additional unit of capital falls.
 * **Catch-up Effect:** Countries that start off poor tend to grow more rapidly than countries that start off rich.
 
+<div style="text-align: center; margin: 25px 0;">
+  <img src="production-function.png" alt="Production Function and Diminishing Returns" style="max-width: 90%; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">
+    Figure 1: The Production Function. Note how the curve flattens as capital per worker increases due to diminishing returns.
+  </p>
+</div>
 
-
-### 3. Investment from Abroad
+### Investment from Abroad
 Investment doesn't just come from domestic residents.
 
 | Investment Type | Description |
