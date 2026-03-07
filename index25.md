@@ -180,5 +180,11 @@ function checkQuiz25() {
 }
 </script>
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script>
+  function checkQuiz26() { ... }
+</script>
 ---
 [⬅ Back to Chapter 24 (Inflation)](index24.html) | [🏠 Home](index.html)
