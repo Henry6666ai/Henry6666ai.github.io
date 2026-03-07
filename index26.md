@@ -65,7 +65,12 @@ This model explains how the financial system coordinates saving and investment.
 * **Supply:** Comes from national saving. A higher interest rate makes saving more attractive, increasing the quantity supplied.
 * **Demand:** Comes from households and firms wishing to borrow for investment. A higher interest rate makes borrowing more expensive, decreasing the quantity demanded.
 
-
+<div style="text-align: center; margin: 25px 0;">
+  <img src="loanable-funds.png" alt="The Market for Loanable Funds" style="max-width: 90%; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">
+    Figure 1: The Market for Loanable Funds. The interest rate adjusts to balance the supply of saving and the demand for investment.
+  </p>
+</div>
 
 ---
 
@@ -75,20 +80,35 @@ This model explains how the financial system coordinates saving and investment.
 Tax laws that encourage saving (e.g., lower taxes on interest) shift the **Supply curve to the right**.
 * **Result:** Lower interest rates and higher investment.
 
-
+<div style="text-align: center; margin: 25px 0;">
+  <img src="saving-incentives.png" alt="Saving Incentives Increase Supply" style="max-width: 90%; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">
+    Figure 2: Saving Incentives. A change in tax laws to encourage saving shifts the supply of loanable funds to the right.
+  </p>
+</div>
 
 ### Policy 2: Investment Incentives
 An investment tax credit increases the demand for borrowing, shifting the **Demand curve to the right**.
 * **Result:** Higher interest rates and higher saving/investment.
 
-
+<div style="text-align: center; margin: 25px 0;">
+  <img src="incentives-increase.png" alt="Investment Incentives Increase Demand" style="max-width: 90%; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">
+    Figure 3: Investment Incentives. An investment tax credit increases the demand for loanable funds, shifting the curve to the right.
+  </p>
+</div>
 
 ### Policy 3: Budget Deficits & "Crowding Out"
 When the government runs a deficit, it borrows to finance the shortfall, shifting the **Supply curve to the left**.
 * **Crowding Out:** The decrease in private investment resulting from government borrowing.
 * **Result:** Higher interest rates and lower investment.
 
-
+<div style="text-align: center; margin: 25px 0;">
+  <img src="government-budget.png" alt="Effect of Budget Deficit" style="max-width: 90%; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">
+    Figure 4: The Effect of a Budget Deficit. When the government spends more than it receives, it reduces the supply of loanable funds, leading to "Crowding Out."
+  </p>
+</div>
 
 ---
 
