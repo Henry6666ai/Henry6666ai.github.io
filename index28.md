@@ -28,10 +28,6 @@ The Bureau of Labor Statistics (BLS) divides the adult population (16+) into thr
 * **Unemployed:** Not employed, but available for work and have **actively looked** for work in the last 4 weeks.
 * **Not in the Labor Force:** Full-time students, homemakers, and retirees.
 
-<div style="text-align: center; margin: 30px 0;">
-  <img src="population-breakdown.png" alt="Figure 1 - Population Breakdown" style="max-width: 90%; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">Figure 1: The Breakdown of the Population</p>
-</div>
 
 ---
 
@@ -52,10 +48,6 @@ $$\text{Participation Rate} = \left( \frac{\text{Labor Force}}{\text{Adult Popul
 ## 📈 3. Trends and Real-World Data
 Labor-market experiences differ across groups. Since 1950, women's participation has surged while men's has gradually declined.
 
-<div style="text-align: center; margin: 30px 0;">
-  <img src="labor-force-participation.png" alt="Figure 2 - Participation Trends" style="max-width: 90%; border: 1px solid #ddd; border-radius: 8px;">
-  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">Figure 2: Labor-Force Participation Rates for Men and Women</p>
-</div>
 
 ---
 
@@ -75,10 +67,6 @@ Structural unemployment happens when the wage is stuck above the equilibrium lev
 2.  **Unions:** Collective bargaining can push wages up, benefiting "insiders" but leaving "outsiders" unemployed.
 3.  **Efficiency Wages:** Firms pay more to increase productivity (better health, lower turnover, higher quality).
 
-<div style="text-align: center; margin: 30px 0;">
-  <img src="unemployment-from-a-wage-above-equilibrium.png" alt="Figure 3 - Wage Above Equilibrium" style="max-width: 90%; border: 1px solid #ddd; border-radius: 8px;">
-  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">Figure 3: Unemployment resulting from a wage floor above equilibrium.</p>
-</div>
 
 ---
 
