@@ -24,10 +24,10 @@ Productivity is the quantity of goods and services produced from each unit of la
 > **Core Principle:** An economy’s income is the economy’s output. If productivity grows, living standards grow.
 
 ### The Four Determinants of Productivity
-1.  **Physical Capital:** The stock of equipment and structures used to produce goods and services (e.g., machinery, buildings).
-2.  **Human Capital:** The knowledge and skills workers acquire through education, training, and experience.
-3.  **Natural Resources:** Inputs provided by nature, such as land, rivers, and mineral deposits.
-4.  **Technological Knowledge:** Society’s understanding of the best ways to produce goods and services (e.g., the invention of the assembly line).
+1. **Physical Capital ($K$):** The stock of equipment and structures used to produce goods and services (e.g., machinery, buildings).
+2. **Human Capital ($H$):** The knowledge and skills workers acquire through education, training, and experience.
+3. **Natural Resources ($N$):** Inputs provided by nature, such as land, rivers, and mineral deposits.
+4. **Technological Knowledge ($A$):** Society’s understanding of the best ways to produce goods and services (e.g., the invention of the assembly line).
 
 ---
 
@@ -49,9 +49,7 @@ To raise future productivity, a society must invest more current resources in th
 * **Diminishing Returns:** As the stock of capital rises, the extra output produced from an additional unit of capital falls.
 * **Catch-up Effect:** Countries that start off poor tend to grow more rapidly than countries that start off rich. Even a small amount of capital investment in a poor country can substantially increase productivity.
 
-
-    Figure 1: The Production Function. Note how the curve flattens as capital per worker increases due to diminishing returns.
- 
+REFER TO FIGURE 1: THE PRODUCTION FUNCTION
 
 ### Investment from Abroad
 Governments can also promote growth by encouraging investment from overseas:
@@ -78,9 +76,9 @@ Governments can also promote growth by encouraging investment from overseas:
 
 ## 7. Population Growth
 Population growth has three main effects on the economy:
-1.  **Stretching Natural Resources:** More people means more demand for finite resources.
-2.  **Diluting Capital:** High population growth spreads capital thinner among workers, lowering productivity per worker.
-3.  **Promoting Tech Progress:** More people means more scientists, inventors, and engineers to drive innovation.
+1. **Stretching Natural Resources:** More people means more demand for finite resources.
+2. **Diluting Capital:** High population growth spreads capital thinner among workers, lowering productivity per worker.
+3. **Promoting Tech Progress:** More people means more scientists, inventors, and engineers to drive innovation.
 
 ---
 
@@ -95,7 +93,7 @@ Sub-Saharan Africa remains among the poorest regions in the world. Key reasons i
 ## 📝 Practice Quiz
 
 <div id="quiz-container" style="background-color: #f8f9fa; padding: 25px; border-radius: 10px; border: 1px solid #d1d5da; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  
+
   <div id="q1-box" style="margin-bottom: 20px; padding: 15px; border-radius: 8px;">
     <p><strong>1. Which determinant of productivity refers to the "knowledge and skills that workers acquire"?</strong></p>
     <label style="display: block;"><input type="radio" name="q1" value="A"> A) Physical Capital</label>
@@ -177,11 +175,5 @@ function checkQuiz25() {
 }
 </script>
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-<script>
-  function checkQuiz26() { ... }
-</script>
 ---
 [⬅ Back to Chapter 24 (Inflation)](index24.html) | [🏠 Home](index.html)
