@@ -143,3 +143,4 @@ function checkQuiz() {
   document.getElementById('score').innerHTML = "Final Score: " + score + " / 5";
 }
 </script>
+    
