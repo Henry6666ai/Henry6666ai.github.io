@@ -182,6 +182,6 @@ function checkQuiz26() {
   document.getElementById('score-display').innerHTML = "Final Score: " + score + " / " + total;
 }
 </script>
-
+      
 ---
 [⬅ Back to Chapter 25](index25.html) | [🏠 Home](index.html)
