@@ -127,6 +127,6 @@ function checkQuiz24() {
   document.getElementById('score-display').innerHTML = "Your Score: " + score + " / " + total;
 }
 </script>
-
+      
 ---
 [⬅ Back to Chapter 23 (GDP)](index.html)
