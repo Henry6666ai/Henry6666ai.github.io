@@ -174,6 +174,6 @@ function checkQuiz25() {
   document.getElementById('score-display').innerHTML = "Your Score: " + score + " / " + total;
 }
 </script>
-
+       
 ---
 [⬅ Back to Chapter 24 (Inflation)](index24.html) | [🏠 Home](index.html)
