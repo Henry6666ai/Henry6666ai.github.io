@@ -49,12 +49,9 @@ To raise future productivity, a society must invest more current resources in th
 * **Diminishing Returns:** As the stock of capital rises, the extra output produced from an additional unit of capital falls.
 * **Catch-up Effect:** Countries that start off poor tend to grow more rapidly than countries that start off rich. Even a small amount of capital investment in a poor country can substantially increase productivity.
 
-<div style="text-align: center; margin: 25px 0;">
-  <img src="production-function.png" alt="Production Function and Diminishing Returns" style="max-width: 90%; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p style="color: #6a737d; font-style: italic; font-size: 0.9em; margin-top: 10px;">
+
     Figure 1: The Production Function. Note how the curve flattens as capital per worker increases due to diminishing returns.
-  </p>
-</div>
+ 
 
 ### Investment from Abroad
 Governments can also promote growth by encouraging investment from overseas:
