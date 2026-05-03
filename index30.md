@@ -27,11 +27,11 @@ This chapter explores the causes and consequences of inflation, the classical th
 The **Quantity Theory of Money** explains the long-run determinants of the price level and the inflation rate.
 
 ### The Value of Money
-When the price level ($P$) rises, the value of money ($1/P$) falls. Each dollar buys a smaller quantity of goods and services.
+When the price level (*P*) rises, the value of money (*1/P*) falls. Each dollar buys a smaller quantity of goods and services.
 
 ### Money Supply and Demand
 * **Money Supply:** Controlled by the Fed. In the long run, the supply curve is vertical.
-* **Money Demand:** Reflects how much wealth people want to hold in liquid form. As $P$ increases (and $1/P$ decreases), the quantity of money demanded increases.
+* **Money Demand:** Reflects how much wealth people want to hold in liquid form. As *P* increases (and *1/P* decreases), the quantity of money demanded increases.
 
 REFER TO FIGURE 1: HOW THE PRICE LEVEL IS DETERMINED
 
@@ -50,17 +50,17 @@ Economists separate economic variables into two distinct categories:
 
 ## 4. Velocity and the Quantity Equation
 
-The **Velocity of Money ($V$)** is the rate at which money changes hands.
+The **Velocity of Money (*V*)** is the rate at which money changes hands.
 
 ### The Quantity Equation:
 $$M \times V = P \times Y$$
 
-* **$M$:** Quantity of money.
-* **$V$:** Velocity of money.
-* **$P$:** Price level (GDP deflator).
-* **$Y$:** Real GDP (quantity of output).
+* **M:** Quantity of money.
+* **V:** Velocity of money.
+* **P:** Price level (GDP deflator).
+* **Y:** Real GDP (quantity of output).
 
-Because $V$ is relatively stable and $Y$ is determined by factors of production, any increase in $M$ by the central bank must result in a proportional increase in the price level $P$.
+Because *V* is relatively stable and *Y* is determined by factors of production, any increase in *M* by the central bank must result in a proportional increase in the price level *P*.
 
 ---
 
