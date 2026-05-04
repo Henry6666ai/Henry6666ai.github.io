@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Chapter 31 - Open-Economy Macroeconomics: Basic Concepts
+title: "Chapter 31: Open-Economy Macroeconomics - Basic Concepts"
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-# 🌐 Chapter 31: Open-Economy Macroeconomics: Basic Concepts
+# 🌐 Chapter 31: Open-Economy Macroeconomics
 
-This module introduces the fundamental concepts of how an economy interacts with the rest of the world, focusing on the flow of goods and capital.
+This module introduces the fundamental concepts of how an economy interacts with the rest of the world, focusing on the flow of goods and capital, and the role of exchange rates.
 
 ---
 
@@ -18,7 +18,7 @@ An open economy interacts with other economies by buying and selling goods and s
 
 * **Exports:** Goods and services produced domestically and sold abroad.
 * **Imports:** Goods and services produced abroad and sold domestically.
-* **Net Exports (*NX*):** Also known as the **Trade Balance**, calculated as the value of a nation’s exports minus the value of its imports.
+* **Net Exports (*NX*) / Trade Balance:** The value of a nation’s exports minus the value of its imports.
 
 ### Trade Status
 * **Trade Surplus:** Exports > Imports (*NX* > 0).
@@ -31,11 +31,10 @@ An open economy interacts with other economies by buying and selling goods and s
 
 **Net Capital Outflow (*NCO*)** is the purchase of foreign assets by domestic residents minus the purchase of domestic assets by foreigners.
 
-* **Foreign Direct Investment (FDI):** A domestic resident actively manages a foreign investment (e.g., a company opening a branch abroad).
-* **Foreign Portfolio Investment:** A domestic resident buys foreign stocks or bonds, taking a passive role.
+* **Foreign Direct Investment (FDI):** A domestic resident actively manages a foreign investment (e.g., opening a branch office in another country).
+* **Foreign Portfolio Investment:** A domestic resident buys foreign stocks or bonds, giving them a passive role.
 
-### The Identity: *NX* = *NCO*
-In an economy, net exports must always equal net capital outflow. Every transaction that affects one must affect the other by the same amount.
+> **The Identity:** In an economy as a whole, net exports must always equal net capital outflow (**NX = NCO**) because every transaction that affects one must affect the other by the same amount.
 
 ---
 
@@ -45,11 +44,11 @@ The relationship between domestic saving and investment is tied to international
 
 $$S = I + NCO$$
 
-* **S (Saving):** National saving (*Y - C - G*).
+* **S (Saving):** The income of the nation left after paying for consumption and government purchases (*Y - C - G*).
 * **I (Investment):** Domestic investment.
-* **NCO:** Net Capital Outflow (which equals *NX*).
+* **NCO:** Net Capital Outflow (which also equals *NX*).
 
-When a nation saves more than it invests domestically (*S > I*), the excess saving flows abroad as positive *NCO*, resulting in a trade surplus.
+When a nation saves more than it invests domestically, the excess saving flows abroad in the form of positive net capital outflow (a trade surplus).
 
 ---
 
@@ -57,8 +56,8 @@ When a nation saves more than it invests domestically (*S > I*), the excess savi
 
 ### Nominal Exchange Rates
 The rate at which a person can trade the currency of one country for the currency of another.
-* **Appreciation:** An increase in the value of a currency (it can buy more foreign currency).
-* **Depreciation:** A decrease in the value of a currency.
+* **Appreciation (Strengthening):** An increase in the value of a currency measured by the amount of foreign currency it can buy.
+* **Depreciation (Weakening):** A decrease in the value of a currency.
 
 ### Real Exchange Rates
 The rate at which a person can trade the goods and services of one country for those of another.
@@ -69,11 +68,11 @@ $$\text{Real Exchange Rate} = \frac{\text{Nominal Exchange Rate} \times \text{Do
 
 ## 5. Purchasing-Power Parity (PPP)
 
-This theory states that a unit of any given currency should be able to buy the same quantity of goods in all countries. 
+The simplest theory of exchange rates, which states that a unit of any given currency should be able to buy the same quantity of goods in all countries.
 
-* **Arbitrage:** The process of taking advantage of price differences in different markets, which eventually drives prices toward equality.
+* **Arbitrage:** Taking advantage of price differences for the same item in different markets to make a profit.
 * **Implication:** If PPP holds, the nominal exchange rate between two countries must reflect the price levels in those countries.
-* **Limitations:** PPP doesn't always hold because many goods aren't easily traded, and tradable goods aren't always perfect substitutes.
+* **Limitations:** PPP does not always hold because many goods are not easily traded and tradable goods are not always perfect substitutes.
 
 ---
 
@@ -83,7 +82,7 @@ This theory states that a unit of any given currency should be able to buy the s
 
   <div id="q1-box" style="margin-bottom: 20px; padding: 15px; border-radius: 8px;">
     <p><strong>1. If a nation has a trade surplus, which of the following must be true?</strong></p>
-    <label style="display: block;"><input type="radio" name="q1" value="A"> A) NCO < 0</label>
+    <label style="display: block;"><input type="radio" name="q1" value="A"> A) *NCO* < 0</label>
     <label style="display: block;"><input type="radio" name="q1" value="B"> B) Net Exports are negative</label>
     <label style="display: block;"><input type="radio" name="q1" value="C"> C) Exports are greater than imports</label>
     <div id="feedback-q1" style="margin-top: 10px; font-weight: 600;"></div>
@@ -116,13 +115,13 @@ This theory states that a unit of any given currency should be able to buy the s
   <div id="q5-box" style="margin-bottom: 20px; padding: 15px; border-radius: 8px;">
     <p><strong>5. Which of the following would cause U.S. Net Exports to decrease?</strong></p>
     <label style="display: block;"><input type="radio" name="q5" value="A"> A) U.S. consumers develop a preference for French wine</label>
-    <label style="display: block;"><input type="radio" name="q5" value="B"> B) Price of U.S. cars falls relative to foreign cars</label>
+    <label style="display: block;"><input type="radio" name="q5" value="B"> B) The price of U.S.-made cars falls relative to foreign cars</label>
     <label style="display: block;"><input type="radio" name="q5" value="C"> C) The U.S. dollar depreciates</label>
     <div id="feedback-q5" style="margin-top: 10px; font-weight: 600;"></div>
   </div>
 
   <div style="text-align: center;">
-    <button onclick="checkQuiz31()" style="background-color: #2ea44f; color: white; border: none; padding: 12px 25px; border-radius: 6px; cursor: pointer; font-weight: bold;">Submit Answers</button>
+    <button onclick="checkQuiz31()" style="background-color: #2ea44f; color: white; border: none; padding: 12px 25px; border-radius: 6px; cursor: pointer; font-weight: bold;">Submit & Show Results</button>
     <h3 id="score-display" style="margin-top: 20px;"></h3>
   </div>
 </div>
@@ -132,11 +131,11 @@ function checkQuiz31() {
   let score = 0;
   const total = 5;
   const solutions = {
-    q1: { ans: "C", note: "A trade surplus means exports exceed imports (NX > 0)." },
-    q2: { ans: "B", note: "Opening and managing a physical store abroad is Direct Investment." },
-    q3: { ans: "B", note: "(80 * 4) / 400 = 320 / 400 = 0.8." },
-    q4: { ans: "C", note: "Excessive money printing leads to inflation and currency depreciation." },
-    q5: { ans: "A", note: "Buying more foreign goods (imports) reduces Net Exports (NX = Exports - Imports)." }
+    q1: { ans: "C", note: "A trade surplus occurs when exports exceed imports, meaning *NX* is positive." },
+    q2: { ans: "B", note: "Directly opening and managing a store is Foreign Direct Investment." },
+    q3: { ans: "B", note: "Calculation: (80 Yen/$ * $4) / 400 Yen = 320 / 400 = 0.8." },
+    q4: { ans: "C", note: "Printing money leads to inflation, reducing the currency's domestic and international value." },
+    q5: { ans: "A", note: "Increasing imports (buying foreign wine) decreases Net Exports (*NX = Exports - Imports*)." }
   };
 
   for (let i = 1; i <= total; i++) {
@@ -156,6 +155,10 @@ function checkQuiz31() {
         feedback.style.color = "#d73a49";
         box.style.backgroundColor = "#ffeef0";
       }
+    } else {
+        // Handle unanswered questions
+        feedback.innerHTML = "⚠️ Please select an answer. (Correct answer is " + solutions[qName].ans + ")";
+        feedback.style.color = "#856404";
     }
   }
   document.getElementById('score-display').innerHTML = "Final Score: " + score + " / " + total;
