@@ -192,6 +192,7 @@
                 <p>Test your understanding with these 5 conceptual questions.</p>
 
                 <form id="quiz-form">
+                   
                     <!-- Question 1 -->
                     <div class="quiz-question" data-question="1">
                         <p class="q-title"><strong>Question 1:</strong> What is the primary economic definition of opportunity cost?</p>
@@ -203,6 +204,7 @@
                         </div>
                         <div class="feedback" data-answer="b"></div>
                     </div>
+
 
                     <!-- Question 2 -->
                     <div class="quiz-question" data-question="2">
@@ -216,6 +218,7 @@
                         <div class="feedback" data-answer="c"></div>
                     </div>
 
+                   
                     <!-- Question 3 -->
                     <div class="quiz-question" data-question="3">
                         <p class="q-title"><strong>Question 3:</strong> What primary force does Adam Smith's "invisible hand" rely upon to coordinate market activity?</p>
@@ -228,6 +231,7 @@
                         <div class="feedback" data-answer="c"></div>
                     </div>
 
+                    
                     <!-- Question 4 -->
                     <div class="quiz-question" data-question="4">
                         <p class="q-title"><strong>Question 4:</strong> What is the primary determinant of a country's standard of living?</p>
@@ -240,6 +244,7 @@
                         <div class="feedback" data-answer="b"></div>
                     </div>
 
+                   
                     <!-- Question 5 -->
                     <div class="quiz-question" data-question="5">
                         <p class="q-title"><strong>Question 5:</strong> According to macroeconomic principles, what causes large or persistent inflation?</p>
