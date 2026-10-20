@@ -48,8 +48,9 @@
         <!-- Main Content Area -->
         <main class="main-content">
             <header class="hero">
-                <h1>Thinking Like an Economist</h1>
-                <p class="hero-subtitle">
+  <h1>Chapter 2</h1>
+  <p class="subtitle">Principles of Economics</p>
+</header>
                     This lecture webpage explores how economists approach the study of society using the scientific method, economic models such as the circular-flow diagram and the production possibilities frontier, and the vital distinction between positive and normative analysis.
                 </p>
             </header>
